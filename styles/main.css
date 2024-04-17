@@ -1,0 +1,134 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2em;
+
+    background-image: url("../images/freepik_background.jpg");  /*[color] [image] [repeat] [attachment] [position]*/
+    background-repeat: repeat;
+    background-position: left;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 76em;
+    margin: auto;
+    padding: 1em;
+    background-color: rgb(215, 196, 216);
+    border: 4px solid darkorchid;		/* width style color*/
+}
+
+.row-align {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card {
+    top: 0;
+    background: white;
+    height: 14em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    text-align: center;
+    aspect-ratio: 7/10;
+    box-shadow: 0 0.5rem 0.5rem rgba(0 0 0 / 0.15);
+    border-radius: 4px;
+    word-break: break-word;
+}  
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1%;
+}
+
+section.grid {
+    display: grid; 
+    justify-content: center; 
+    grid-template-columns: auto auto;
+}
+
+section.spacing {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    background-color: lightgray;
+    background-image: none;
+} 
+
+table {
+    width: 110%;
+}
+
+header {
+    min-width: 40em;
+    background-image: linear-gradient(45deg, rgb(193, 107, 197), rgb(173, 116, 181),
+     rgb(255, 182, 251), rgb(213, 169, 211), black);
+    
+    border-top: 4px solid ;
+    border-right: 4px solid ;
+    border-bottom: 4px solid purple;
+    border-left: 4px solid purple;
+
+    margin: 10px 20px 12px 20px;
+}
+
+footer {
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+li {
+    margin-top: 1em;
+    width: 40em;
+}
+
+hr {
+    width: 70em;
+}
+
+.tiny {
+    font-size: 10px;
+}
+
+
